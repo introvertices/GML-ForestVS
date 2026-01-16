@@ -22,6 +22,7 @@
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_effect_glow-1.0.0","name":"io.gamemaker.gm_effect_glow-1.0.0","path":"io.gamemaker.gm_effect_glow-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","name":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","path":"io.gamemaker.gm_effect_gaussian_blur-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -33,6 +34,7 @@
   "resources":[
     {"id":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"bg_forest","path":"sprites/bg_forest/bg_forest.yy",},},
     {"id":{"name":"sp_p_deerIdle","path":"sprites/sp_p_deerIdle/sp_p_deerIdle.yy",},},
     {"id":{"name":"sp_p_deerJump","path":"sprites/sp_p_deerJump/sp_p_deerJump.yy",},},
     {"id":{"name":"sp_p_deerWalk","path":"sprites/sp_p_deerWalk/sp_p_deerWalk.yy",},},
