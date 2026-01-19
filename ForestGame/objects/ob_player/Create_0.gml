@@ -56,7 +56,6 @@ birdStruct = {
     
 };
 
-currentForm = deerStruct
  
 
 // Run

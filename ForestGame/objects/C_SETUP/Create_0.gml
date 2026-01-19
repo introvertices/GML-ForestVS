@@ -1,0 +1,1 @@
+global.currentForm = ob_player.deerStruct
