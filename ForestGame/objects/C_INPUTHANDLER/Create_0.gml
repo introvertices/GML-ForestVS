@@ -1,20 +1,4 @@
-// Detect if a controller is present - Modify the below tutorial code as needed
-show_debug_message("Event = " + async_load[? "event_type"]);        // Debug code so you can see which event has been
-show_debug_message("Pad = " + string(async_load[? "pad_index"]));   // triggered and the pad associated with it.
 
-switch(async_load[? "event_type"])             // Parse the async_load map to see which event has been triggered
-{
-case "gamepad discovered":                     // A game pad has been discovered
-    var pad = async_load[? "pad_index"];       // Get the pad index value from the async_load map
-    gamepad_set_axis_deadzone(pad, 0.5);       // Set the "deadzone" for the axis
-    gamepad_set_button_threshold(pad, 0.1);    // Set the "threshold" for the triggers
-    
-    break;
-case "gamepad lost":                           // Gamepad has been removed or otherwise disabled
-    var pad = async_load[? "pad_index"];       // Get the pad index
-
-    break;
-}
 
 
 
@@ -28,4 +12,4 @@ shapeshiftRight = keyboard_check(ord("E"))
 _moveLeft = keyboard_check(vk_left) || keyboard_check(ord("D"))
 _moveRight = keyboard_check(vk_right) || keyboard_check(ord("A"))
 _moveJump = keyboard_check(vk_space) || keyboard_check(ord("Z"))
-_moveAttack = keyboard_check(ord("X")) || keyboard_check(vk_control)
+_moveAttack = keyboard_check(vk_control) || keyboard_check(ord("X"))
